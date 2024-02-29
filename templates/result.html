@@ -1,13 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Question Result</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fancy Card</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-explanation {
+  font-size: 16px;
+  color: #666;
+}
+</style>
 </head>
 <body>
-    <h1>Question Result</h1>
-    <p><strong>Question:</strong> {{ question }}</p>
-    <p><strong>Answer:</strong> {{ answer }}</p>
+
+<div class="card" style="border-radius: 2px solid green ;">
+  <div class="card-title" style="color: red;">{{ question }}</div>
+  <div class="card-explanation" style="color: #333;">
+    {{ answer }}
+  </div>
+</div>
+
 </body>
 </html>

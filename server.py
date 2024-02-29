@@ -79,6 +79,7 @@ def upload_file():
 def incoming_messages():
    data = request.get_json(force=True)
    print(f'Incoming message...\n ${data}')
+   
    return Response(status=200)
 
 @app.route('/delivery-reports', methods=['POST'])
