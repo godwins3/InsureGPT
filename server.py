@@ -21,7 +21,7 @@ def upload_file():
             return 'No selected file'
 
         # Save the uploaded PDF file
-        pdf_path = 'uploads/' + file.filename
+        pdf_path = 'tmp/' + file.filename
         file.save(pdf_path)
 
         # Extract text from the PDF file
