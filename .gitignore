@@ -1,0 +1,37 @@
+.idea/
+__pycache__/
+download#stats/
+.vscode/
+
+# Environments
+.env
+.venv
+env/
+venv/
+tsenv/
+ENV/
+
+
+# Database
+*.db
+*.rdb
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+
+*.sql
+*.xml
+*.pyc
+*.db
+*.pem
+*.jpg
+*.log
+*.mwb
+*.bak
+*.pyc
+*.ini
+
+test.py
+settings.json
