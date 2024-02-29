@@ -32,6 +32,7 @@ instance/
 *.bak
 *.pyc
 *.ini
+*.pdf
 
 test.py
 settings.json
